@@ -28,12 +28,7 @@
 
 namespace Pandocfilters\Leanpub;
 
-// Use project specific pandocfilters.php if present
-if (file_exists(__DIR__ . '/pandocfilters.php')) {
-    require_once __DIR__ . '/pandocfilters.php';
-} else {
-    require_once __DIR__ . '/../pandocfilters.php';
-}
+require_once __DIR__ . '/../PandocFilter.php';
 
 /**
  * Register Block Types

@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Class Pandoc_Filter
+ * Class PandocFilter
  * 
  * Methods to aid writing PHP scripts that process
  * the pandoc AST serialized JSON
  * 
  * Ported from https://github.com/jgm/pandocfilters/blob/master/pandocfilters.py
  */
-class Pandoc_Filter
+class PandocFilter
 {
     public static $source = 'php://stdin';
 
@@ -168,37 +168,37 @@ class Pandoc_Filter
 
 # Constructors for block elements
 
-$Plain = Pandoc_Filter::elt('Plain',1);
-$Para = Pandoc_Filter::elt('Para',1);
-$CodeBlock = Pandoc_Filter::elt('CodeBlock',2);
-$RawBlock = Pandoc_Filter::elt('RawBlock',2);
-$BlockQuote = Pandoc_Filter::elt('BlockQuote',1);
-$OrderedList = Pandoc_Filter::elt('OrderedList',2);
-$BulletList = Pandoc_Filter::elt('BulletList',1);
-$DefinitionList = Pandoc_Filter::elt('DefinitionList',1);
-$Header = Pandoc_Filter::elt('Header',3);
-$HorizontalRule = Pandoc_Filter::elt('HorizontalRule',0);
-$Table = Pandoc_Filter::elt('Table',5);
-$Div = Pandoc_Filter::elt('Div',2);
-$Null = Pandoc_Filter::elt('Null',0);
+$Plain = PandocFilter::elt('Plain',1);
+$Para = PandocFilter::elt('Para',1);
+$CodeBlock = PandocFilter::elt('CodeBlock',2);
+$RawBlock = PandocFilter::elt('RawBlock',2);
+$BlockQuote = PandocFilter::elt('BlockQuote',1);
+$OrderedList = PandocFilter::elt('OrderedList',2);
+$BulletList = PandocFilter::elt('BulletList',1);
+$DefinitionList = PandocFilter::elt('DefinitionList',1);
+$Header = PandocFilter::elt('Header',3);
+$HorizontalRule = PandocFilter::elt('HorizontalRule',0);
+$Table = PandocFilter::elt('Table',5);
+$Div = PandocFilter::elt('Div',2);
+$Null = PandocFilter::elt('Null',0);
 
 # Constructors for inline elements
 
-$Str = Pandoc_Filter::elt('Str',1);
-$Emph = Pandoc_Filter::elt('Emph',1);
-$Strong = Pandoc_Filter::elt('Strong',1);
-$Strikeout = Pandoc_Filter::elt('Strikeout',1);
-$Superscript = Pandoc_Filter::elt('Superscript',1);
-$Subscript = Pandoc_Filter::elt('Subscript',1);
-$SmallCaps = Pandoc_Filter::elt('SmallCaps',1);
-$Quoted = Pandoc_Filter::elt('Quoted',2);
-$Cite = Pandoc_Filter::elt('Cite',2);
-$Code = Pandoc_Filter::elt('Code',2);
-$Space = Pandoc_Filter::elt('Space',0);
-$LineBreak = Pandoc_Filter::elt('LineBreak',0);
-$Math = Pandoc_Filter::elt('Math',2);
-$RawInline = Pandoc_Filter::elt('RawInline',2);
-$Link = Pandoc_Filter::elt('Link',2);
-$Image = Pandoc_Filter::elt('Image',2);
-$Note = Pandoc_Filter::elt('Note',1);
-$Span = Pandoc_Filter::elt('Span',2);
+$Str = PandocFilter::elt('Str',1);
+$Emph = PandocFilter::elt('Emph',1);
+$Strong = PandocFilter::elt('Strong',1);
+$Strikeout = PandocFilter::elt('Strikeout',1);
+$Superscript = PandocFilter::elt('Superscript',1);
+$Subscript = PandocFilter::elt('Subscript',1);
+$SmallCaps = PandocFilter::elt('SmallCaps',1);
+$Quoted = PandocFilter::elt('Quoted',2);
+$Cite = PandocFilter::elt('Cite',2);
+$Code = PandocFilter::elt('Code',2);
+$Space = PandocFilter::elt('Space',0);
+$LineBreak = PandocFilter::elt('LineBreak',0);
+$Math = PandocFilter::elt('Math',2);
+$RawInline = PandocFilter::elt('RawInline',2);
+$Link = PandocFilter::elt('Link',2);
+$Image = PandocFilter::elt('Image',2);
+$Note = PandocFilter::elt('Note',1);
+$Span = PandocFilter::elt('Span',2);

@@ -1,9 +1,9 @@
 # PHP pandocfilters
 
 This is a PHP port of the python module for writing pandoc filters found at
-https://github.com/jgm/pandocfilters
+[jgm/pandocfilters](https://github.com/jgm/pandocfilters)
 
-The purpose is simply to make it easier to write filters in PHP
+The purpose is simply to make it easier to write filters in PHP.
 
 ```php
 #!/usr/bin/env php
@@ -20,8 +20,8 @@ Pandoc_Filter::toJSONFilter(function ($type, $value, $format, $meta) {
 
 ```
 
-More examples and more information can be found in the original repository.
-Dave Jarvis has opened a PR with a bit more information. Until it is merged it can be found here:  
-https://github.com/DaveJarvis/pandocfilters/tree/patch-1
+This is a fork of
+[Vinai/pandocfilters-php](https://github.com/Vinai/pandocfilters-php) packaged
+as a composer package
 
 Thanks to John MacFarlane for pandoc.

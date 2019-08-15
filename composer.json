@@ -1,0 +1,26 @@
+{
+    "name": "kalkin/pandocfilters",
+    "description": "PHP port of the python module for writing pandoc filters",
+    "type": "library",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Vinai Kopp",
+            "homepage": "http://vinaikopp.com/",
+            "role": "Original Developer"
+        },
+        {
+            "name": "Bahtiar `kalkin` Gadimov",
+            "homepage": "https://bahtiar.gadimov.de/",
+            "email": "bahtiar@gadimov.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/kalkin/pandocfilters-php/issues",
+        "source": "https://github.com/kalkin/pandocfilters-php.git"
+    },
+    "autoload": {
+        "psr-0": { "PandocFilter": "" }
+    }
+}

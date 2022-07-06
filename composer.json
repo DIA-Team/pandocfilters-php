@@ -8,17 +8,11 @@
             "name": "Vinai Kopp",
             "homepage": "http://vinaikopp.com/",
             "role": "Original Developer"
-        },
-        {
-            "name": "Bahtiar `kalkin` Gadimov",
-            "homepage": "https://bahtiar.gadimov.de/",
-            "email": "bahtiar@gadimov.de",
-            "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/kalkin/pandocfilters-php/issues",
-        "source": "https://github.com/kalkin/pandocfilters-php.git"
+        "issues": "https://github.com/DIA-Team/pandocfilters-php/issues",
+        "source": "https://github.com/DIA-Team/pandocfilters-php.git"
     },
     "autoload": {
         "psr-0": { "PandocFilter": "" }

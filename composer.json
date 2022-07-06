@@ -1,5 +1,5 @@
 {
-    "name": "kalkin/pandocfilters",
+    "name": "dia-team/pandocfilters",
     "description": "PHP port of the python module for writing pandoc filters",
     "type": "library",
     "minimum-stability": "stable",
